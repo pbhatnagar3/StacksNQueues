@@ -102,7 +102,7 @@ class Node<T>{
 class Tester{
 	public static void main(String[] args) {
 		Stack<Integer> stack = new Stack<Integer>();
-		System.out.println("Enter the number of elements that you want to enter");
+		System.out.println("Enter the number of elements that you want to enter into the stack");
 		Scanner scan = new Scanner(System.in);
 		int num = scan.nextInt();
 		for(int i = 0; i < num; i++){
